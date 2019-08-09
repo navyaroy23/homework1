@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        img {
+            float: left;
+            margin: 1em;
+        }
+        .leftbox{
+            float:left;
+            width: 900px
+        }
+        #myHeader {
+            border: dotted 1px;
+            height:40 px;
+        }
+
+        #myHeader li{
+            display: inline;
+            padding: 5em;
+            text-align:center;
+        }
+    </style>
+    <header id= "MyHeader">
+        <li>About </li>
+        <li>Resume</li>
+        <li>Portfolio</li>
+        <li>Contact </li>
+    </header>
+    <h1>Navya Roy's Website</h1>
+    <img width="750" src = "https://business-news.ucdenver.edu/wp-content/uploads/2017/05/Screen-Shot-2017-05-17-at-8.53.59-AM-1200x500.png" alt="">
+
+    <div class = "leftbox">
+    <h3>About Me</h3>
+    <p>As a data analyst with a graphic design background, I have the 
+        unique ability to present numbers-based information in a way that is highly visual, 
+        easy to follow and provides answers to some of the most critical questions. 
+        I strive to make complex information visually understandable for end-users of all levels 
+        of expertise. I enjoy working hard to solve problems. I am self-motivated but believe 
+        that collaboration is vital to success and creates an environment for continuous learning 
+        and growth. My time management, meticulous organization, and collaborative best practices 
+        led to promotions, added abilities and dedication and over eight years of experience in the 
+        healthcare, consulting, not-for-profit and marketing fields. I aspire to help manage and 
+        support the business direction while providing precise data visualizations for future 
+        forecasting encouraging the betterment of the business.As a data analyst with a graphic
+        design background, I have the unique ability to present numbers-based information in a
+         way that is highly visual, easy to follow and provides answers to some of the most critical
+         questions. I strive to make complex information visually understandable for end-users of all 
+         levels of expertise. I enjoy working hard to solve problems. I am self-motivated but believe 
+         that collaboration is vital to success and creates an environment for continuous learning and 
+         growth. My time management, meticulous organization, and collaborative best practices led to 
+         promotions, added abilities and dedication and over eight years of experience in the 
+         healthcare, consulting, not-for-profit and marketing fields. I aspire to help manage and 
+         support the business direction while providing precise data visualizations for future 
+         forecasting encouraging the betterment of the business. </p>
+        </div>
+     <ul id = "todoList">
+         <li>This is Me</li>
+     </ul>   
+
+     <script>
+         //get a reference to my todoList
+         let todos = document.getElementById('todoList')
+         let moreTodos = ['At Niagra Falls, Canada side', 'In July 2016']
+         moreTodos.map(x => {
+             let newLi- document.createElement('li');
+            newLi.testcontent = x;
+            todos.appendChild(newLi)
+         })
+     </script>
+</body>
+</html>
