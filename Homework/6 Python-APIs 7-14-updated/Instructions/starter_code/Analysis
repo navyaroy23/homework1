@@ -1,0 +1,12 @@
+Analysis:
+Not surprisingly, temperature increases as we approach the equator. However, temperature peaks at around 20 degrees latitude, not exactly at the equatorial line. This may be due to the Earth's tilt in the axis known as obliquity.
+
+Cloudiness and humidity do not show a strong correlation to latitude. The visualizations below show a great variety of values at similar latitudes.
+
+Wind speed appears to slightly increase as we move away from the equator. We would need to go beyond the ranged examined to make a definitive conclusion.
+
+There is a relatively strong correlation bewteen latitude and temperature. The lower latitudes have higher temperatures and the higher latitudes have lower temperatures.
+The correlation between humidity and latitude is very weak.
+There is almost no correlation between cloudiness and latitude.
+The correlation between latitude and wind speed is very weak.
+Although my sample was random there was a bias toward cities in the northern hemisphere. Most of the cities in my sample were located in Europe.
