@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+   <body>
+      Welcome to the Opioid Prescription Overdose Database
+      <form action = "http://localhost:5000/result" method = "POST">
+      <input type="checkbox" id="opioid" name="opioid">Opioid Prescriber
+      <table border = 1>
+      <tr><td>
+   
+        <p><input type = "submit" value = "submit" /></p>
+        <select name="States">
+         <option value= 'none'>none</option>
+         {% for value in result %}
+            <option value= '{{ value }}'>{{ value }}</option>
+               
+         {% endfor %}
+        </select>
+      </td>
+      <td>
+            <p><input type = "submit" value = "submit" /></p>
+            <select name="Special">
+            <option value= 'none'>none</option>
+             {% for value in special %}
+                <option value= '{{ value }}'>{{ value }}</option>
+                   
+             {% endfor %}
+            </select>
+
+      </td>
+      </tr>
+      </table>
+   </form>
+   </body>
+</html>

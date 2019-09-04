@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+   <body>
+      <table border = 1>
+         <tr>
+         
+         <th>NIP</th>
+         <th>Credentials</th>
+         <th>Specialty</th>
+         <th>Gender</th>
+         <th>State</th>
+         <th>Number of Opiods</th>
+         <th>Number of Non Opiods</th>
+        </th>
+        </tr>
+         {% for ii in result %}
+         <tr>
+                 <td> {{ ii["NPI"] }} </td>
+                 <td> {{ ii["Credentials"] }} </td>
+                 <td> {{ ii["Specialty"] }} </td>
+                 <td> {{ ii["Gender"] }} </td>
+                 <td> {{ ii["State"] }} </td>
+                 <td> {{ ii["NumberofOpioids"] }} </td>
+                 <td> {{ ii["NumberofNonOpioids"] }} </td>
+
+           
+         </tr>  
+         {% endfor %}
+      </table>
+   </body>
+</html>
